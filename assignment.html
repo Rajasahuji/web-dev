@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration Form</title>
+<body>
+    <h2>Resistration Form</h2>
+
+<form>
+    <div class="form-group">
+        <label for="sno">S.NO.</label>
+        <input type="text" id="sno" name="sno"><br><br>
+    </div>
+
+    <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+    </div>
+
+    <div class="form-group">
+        <label for="fname">F'Name</label>
+        <input type="text" id="fname" name="fname"><br><br>
+    </div>
+
+    <div class="form-group">
+        <label>Gender</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br><br>
+    </div>
+
+    <div class="form-group">
+        <label>Hobbies</label>
+        <input type="checkbox" id="singing" name="hobbies" value="singing">
+        <label for="singing">Singing</label>
+        <input type="checkbox" id="dancing" name="hobbies" value="dancing">
+        <label for="dancing">Dancing</label>
+        <input type="checkbox" id="cooking" name="hobbies" value="cooking">
+        <label for="cooking">Cooking</label><br><br>
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email"><br><br>
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password"><br><br>
+    </div>
+
+    <div class="form-group">
+        <label for="mobile">Mobile</label>
+        <input type="tel" id="mobile" name="mobile"><br><br>
+    </div>
+
+    <div class="form-group">
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" name="dob"><br><br>
+    </div>
+
+    <div class="form-group">
+        <label for="pic">Upload pic</label>
+        <input type="file" id="pic" name="pic"><br><br>
+    </div>
+
+    <div class="form-group">
+        <label for="city">City</label>
+        <select id="city" name="city">
+            <option value="">---select city---</option>
+            <option value="city1">City 1</option>
+            <option value="city2">City 2</option>
+            <option value="city3">City 3</option>
+        </select><br><br>
+    </div>
+
+    <div class="form-group">
+        <label for="address">Address</label>
+        <textarea id="address" name="address"></textarea><br><br>
+    </div>
+
+    <div class="form-group">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        <button type="button" onclick="print()">Print</button><br><br>
+    </div>
+</form>
+</body>
+</html>
